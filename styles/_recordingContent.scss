@@ -1,0 +1,26 @@
+/*page content Recording*/
+.recordings {
+	height: auto;
+	position: relative;
+	
+}
+.recordings-list {
+	margin: 10px 0;
+} 
+.info-area {
+	/*
+	display: inline;
+	float: right;
+	*/
+	position: fixed;
+	right: 90px;
+	top: 10px;
+	height: auto;
+	width: 450;
+	border: 1px solid black;
+}
+
+//note: the notebook paper text are a background is controlded
+//in _deraults.scss under the textarea class
+
+//note: the content for the text area is currently controlled in apps.js

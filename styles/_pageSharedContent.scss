@@ -1,0 +1,18 @@
+/*Page Content Shared*/
+.page-content {
+	width: 927px;
+	height: 450px;
+	margin: 0 20px 20px 20px;
+	position: relative;
+	color: $colorMainText;
+}
+.page-content h1 {
+	font-size: 50px;
+	font-weight: normal;
+}
+.page-content ul {
+	width: 450;
+}
+.page-content ul li {
+	color: $colorMainTextLinerarGradiant;
+}

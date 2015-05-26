@@ -1,0 +1,42 @@
+/*mainSass.css*/
+//note: this Sass file has had all of the individaul
+//components broken out into individual files for simplicity
+//of editing the CSS and for reusability
+
+//note: when this Sass file is compiled the mainSass.css file will be created
+
+//Colors: import the color scheme and the color variables
+@import "colorScheme";
+
+//Defaults: import the shared page defaults
+@import "defaults";
+
+//Clearfix: import Clearfix
+@import "clearfix";
+
+//jQuery: import the jQuery button customizations
+@import "jqueryButtonCustom";
+
+//page header: import the shared page header
+@import "pageHeader";
+
+//nav: This is the shared page navagation
+@import "nav.scss";
+
+//PageContenent: This is the shaged page content
+@import "pageSharedContent";
+
+//Main: import the content for the Main page
+@import "mainContent";
+
+//Recordings: import the content for the Recordings page
+@import "recordingContent";
+
+//footer: import the shared footer for all pages
+@import "footer";
+
+//backgrounds: import the background images for the pages
+@import "backgrounds";
+
+
+

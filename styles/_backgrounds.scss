@@ -1,0 +1,11 @@
+/*Main Page Background*/
+.main-home {
+	background: url(images/BackGroundTile.png) $colorPageImageBackground center right repeat;
+	background-color: $colorDefaultBackground;
+}
+
+/*Recording Page Background*/
+.main-recording {
+	background: url(images/guitarParts.png) $colorPageImageBackground center right repeat-y;
+	background-color: $colorDefaultBackground;
+}
